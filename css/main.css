@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  padding: 20px;
+}
+
+.siteheader h1 {
+  margin-bottom: 25px;
+}
+
+.emojis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.emoji {
+  background: white;
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.icon {
+  display: block;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.emoji h2 {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+}
+
+.emoji p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.emoji a {
+  display: block;
+  text-align: center;
+  background: #781BAA;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.emoji a:hover {
+  background: #64158d;
+}
+
+@media (max-width: 700px) {
+  .emojis {
+    grid-template-columns: 1fr;
+  }
+}
